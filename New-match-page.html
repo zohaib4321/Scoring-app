@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new-match-page.css">
+
+</head>
+<body>
+    <header>
+        <h1>Cricket Scoring</h1>
+    </header>
+    <div class="form-page">
+    </div>
+<div class="container">
+    <div class="inner">
+        <form>
+        <div class="form-items">
+        <label for="team1" class="upper-label">Team 1</label>
+        <input type="text" name="" id="team1" >
+        <label for="team2">Team 2</label>
+        <input type="text" name="" id="team2" >
+        <div class="total-overs-section">
+        <label for="overs">Total overs</label>
+            <input min="1" max="50" type="number" id="overs">
+        </div>
+        <label class="extra-label">Extras</label>
+        <div class="extras-section">
+            <p>Runs on no ball</p>
+            <input type="number" value="1" id="no-ball">
+        </div>
+        <div class="extras-section">
+            <p>Runs on wideball</p>
+            <input type="number" value="1" id="wide-ball">
+        </div>
+        <p class="note">Note: Team 1 will bat first</p>
+        <button id="start-match-button">Start Match</button>
+        </div>
+    </form>
+    </div>
+</div>
+</body>
+</html>
