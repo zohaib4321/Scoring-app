@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -12,134 +15,58 @@ header h1 {
     color: white;
     font-size: 20pt;
     font-weight: 400;
-    padding: 12px 0 0 30px;
-}
-
-label {
-    font-size: 15pt;
-}
-
-.upper-label {
-    margin-top: 1rem;
-}
-
-input[type=text] {
-    margin: 20px 0;
-    height: 2rem;
-    border-radius: 4px;
-    border: 1px solid teal;
-    padding: 0 10px;
-    font-size: 13pt;
-}
-
-.form-items {
-    display: flex;
-    flex-direction: column;
-    width: 25rem;
-}
-
-.extras-section {
-    display: flex;
-    margin-top: 1rem;
-}
-
-.total-overs-section {
-    display: flex;
-    margin-top: 1rem;
-}
-
-#overs {
-    width: 2.5rem;
-    height: 1.8rem;
-    margin-left: 7rem;
-    margin-bottom: 5px;
-    padding: 0 23px;
-    font-size: 14pt;
-    border-radius: 4px;
-    border: 1px solid teal;
-}
-
-.extra-label {
-    margin-top: 2rem;
-}
-
-.extras-section input {
-    width: 3rem;
-    height: 1.3rem;
-    margin-bottom: 0.5rem;
-    font-size: 10pt;
-    padding: 0 10px;
-    border-radius: 4px;
-    border: 1px solid teal;
-}
-
-#no-ball {
-    margin-left: 7rem;
-    width: 2rem;
-    padding: 0 10px;
-    font-size: 13pt;
-}
-
-#wide-ball {
-    margin-left: 6.3rem;
-    width: 2rem;
-    padding: 0 10px;
-    font-size: 13pt;
-}
-
-.note {
-    color: teal;
-    margin-top: 1rem;
-}
-
-#start-match-button {
-    width: 100%;
-    height: 2.5rem;
-    font-size: 15pt;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(6, 92, 120);
-    border: none;
-    margin-top: 1.9rem;
+    padding: 12px 0 0 10px;
 }
 
 .container {
-    height: 89vh;
     width: 100%;
+    height: 90vh;
     display: flex;
+    align-items: center;
     justify-content: center;
-}
-.inner {
-    width: 25rem;
-    display: flex;
-    justify-content: center;
+    background-color: rgb(23, 210, 210);
 }
 
-@media screen and (max-width: 360px) {
-    .container {
-        height: 91vh;
-    }
-    .form-items {
-        margin-top: 1rem;
-        width: 22rem;
-    }
-    #overs {
-        margin-left: 5rem;
-    }
-    #no-ball {
-        margin-left: 5.5rem;
-    }
-    #wide-ball {
-        margin-left: 4.8rem;
-    }
-    label {
-        font-size: 20pt;
-    }
-    .extras-section p {
-        font-size: 15pt;
-    }
-    .container {
-        height: 50vh;
-    }
-    
+.main-label {
+    display: block;
+    padding: 10px 0px;
+    font-size: 14pt;
+    font-weight: 500;
+    color: rgb(6, 92, 120);
+}
+
+.main-input {
+    display: block;
+    width: 97%;
+    height: 2rem;
+    font-size: 12pt;
+    border-radius: 5px;
+    padding-left: 7px;
+    /* margin-left: 0.5rem; */
+    border-color: rgb(6, 92, 120);
+    color:  rgb(6, 92, 120);
+}
+
+.extras-label {
+    /* margin-left: 0.5rem; */
+    font-size: 11pt;
+    color: teal;
+}
+
+p {
+    margin: 2rem 0 1rem 0.7rem;
+    font-size: 11pt;
+    color:  red;
+}
+
+button {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12pt;
+    /* margin-left: 0.5rem; */
+    margin-top: 1rem;
+    color: white;
+    background-color: rgb(6, 92, 120);
 }
